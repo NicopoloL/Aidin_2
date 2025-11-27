@@ -526,3 +526,40 @@ button:hover {
         gap: 25%;  /* меньше расстояние между кнопками на маленьких экранах */
     }
 }
+
+@media (max-width: 550px) {
+    .big_table table {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 500px) {
+    .big_table table {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 460px) {
+    .big_table table {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .big_table table {
+        font-size: 7px;
+    }
+
+    #resume_table td {
+        padding: 5px 5px 15px 0px;
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 300px) {
+    #resume_table td {
+        padding: 5px 5px 5px 0px;
+        font-size: 8px;
+    }
+}
