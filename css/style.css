@@ -442,6 +442,11 @@ button:hover {
     height: auto;
 }
 
+a {
+    word-break: break-word;
+    overflow-wrap: anywhere;
+}
+
 @media (max-width: 1700px) {
     .block_img {
         display: flex;
